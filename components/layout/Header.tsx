@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
-      <div className="px-4 flex h-16 items-center justify-between md:h-20">
+      <div className="px-2 flex h-16 items-center justify-between md:h-20">
         {/* Mobile menu */}
         <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
           <SheetTrigger asChild className="md:hidden">
